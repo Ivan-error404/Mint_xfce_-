@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Claude
+Exec=brave-browser --app=https://claude.ai
+Terminal=false
+Type=Application
+Icon=mathematica
+Categories=Network;
+Comment=
+Path=
+StartupNotify=false

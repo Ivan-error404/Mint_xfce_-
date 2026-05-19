@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Proton Mail
+Comment=Correo seguro cifrado
+Exec=brave-browser --app=https://mail.proton.me
+Icon=web-proton-mail
+Type=Application
+Categories=Network;Email;
+StartupWMClass=protonmail
+Path=
+Terminal=false
+StartupNotify=false

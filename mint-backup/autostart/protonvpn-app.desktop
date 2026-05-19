@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Proton VPN
+Exec=protonvpn-app --start-minimized
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel

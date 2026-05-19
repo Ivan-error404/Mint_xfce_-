@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Anytype
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=anytype --file-forwarding io.anytype.anytype @@u %U @@
+Terminal=false
+Type=Application
+Icon=io.anytype.anytype
+StartupWMClass=anytype
+Categories=Utility;
+Keywords=project management;
+MimeType=x-scheme-handler/anytype;
+Comment=Anytype
+X-Desktop-File-Install-Version=0.28
+X-Flatpak-RenamedFrom=anytype.desktop;
+X-Flatpak=io.anytype.anytype
+X-XFCE-Source=file:///var/lib/flatpak/exports/share/applications/io.anytype.anytype.desktop

@@ -1,0 +1,1 @@
+Anytype	io.anytype.anytype	0.55.4	stable	system

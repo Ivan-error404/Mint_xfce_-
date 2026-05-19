@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="empty"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=680;y=748"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="36"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-alpha" type="empty"/>
+      <property name="enter-opacity" type="empty"/>
+      <property name="leave-opacity" type="empty"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="14"/>
+        <value type="int" value="16"/>
+        <value type="int" value="9"/>
+        <value type="int" value="11"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="3"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="4"/>
+        <value type="int" value="15"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+      <property name="enable-struts" type="bool" value="false"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.6470588235294118"/>
+        <value type="double" value="0.11372549019607843"/>
+        <value type="double" value="0.17647058823529413"/>
+        <value type="double" value="1"/>
+      </property>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="empty">
+      <property name="favorites" type="array">
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="dev.warp.Warp.desktop"/>
+        <value type="string" value="io.anytype.anytype.desktop"/>
+        <value type="string" value="code.desktop"/>
+        <value type="string" value="mysql-workbench.desktop"/>
+        <value type="string" value="claude.desktop"/>
+        <value type="string" value="gparted.desktop"/>
+        <value type="string" value="Magic The Gathering Arena.desktop"/>
+      </property>
+      <property name="launcher-icon-size" type="int" value="5"/>
+      <property name="recent" type="array">
+        <value type="string" value="proton.vpn.app.gtk.desktop"/>
+        <value type="string" value="dev.warp.Warp.desktop"/>
+        <value type="string" value="webapp-OnlineChat4519.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="Magic The Gathering Arena.desktop"/>
+        <value type="string" value="steam.desktop"/>
+        <value type="string" value="gparted.desktop"/>
+        <value type="string" value="mysql-workbench.desktop"/>
+        <value type="string" value="hypnotix.desktop"/>
+        <value type="string" value="com.github.maoschanz.drawing.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="empty"/>
+    <property name="plugin-3" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="17783346411.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-4" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="17782560422.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="17782560423.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-6" type="empty">
+      <property name="show-handle" type="empty"/>
+      <property name="middle-click" type="empty"/>
+    </property>
+    <property name="plugin-7" type="empty">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-8" type="empty">
+      <property name="icon-size" type="empty"/>
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="empty"/>
+      <property name="known-items" type="array">
+        <value type="string" value="proton.vpn.app.gtk"/>
+        <value type="string" value="RegqNMkP8S"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="anytype_status_icon_1"/>
+        <value type="string" value="CopyQ_copyq"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="tray.py"/>
+      </property>
+    </property>
+    <property name="plugin-9" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17791140721.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17783130793.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-12" type="empty">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+      <property name="known-players" type="string" value="Brave"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="digital-time-format" type="empty"/>
+      <property name="digital-layout" type="empty"/>
+      <property name="digital-date-font" type="empty"/>
+      <property name="digital-time-font" type="empty"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-14" type="empty"/>
+    <property name="plugin-15" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17782637631.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17782638152.desktop"/>
+      </property>
+    </property>
+  </property>
+</channel>

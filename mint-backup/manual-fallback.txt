@@ -1,0 +1,121 @@
+========================================
+  MANUAL FALLBACK - Linux Mint Xfce
+  Backup generado el $(date)
+  Host: $(hostname)
+========================================
+
+======================
+1. SISTEMA
+======================
+OS: Linux Mint 22.3 Zena
+Base: Ubuntu 24.04 noble
+Kernel: 6.17.0-23-generic
+Desktop: Xfce 4.18.1
+Arquitectura: x86_64
+
+Hardware:
+  CPU: AMD A9-9425 RADEON R5 (2 núcleos)
+  GPU: AMD Radeon R5 Graphics (amdgpu)
+  RAM: 8 GB
+  Disco: NVMe Intel 512GB SSD
+
+======================
+2. PAQUETES INSTALADOS
+======================
+Total: 2721 paquetes
+Ver archivo: paquetes.txt
+
+Para restaurar:
+  sudo apt update
+  sudo dpkg --set-selections < paquetes.txt
+  sudo apt dselect-upgrade
+
+======================
+3. FLATPAKS
+======================
+$(cat ~/mint-backup/flatpak-list.txt 2>/dev/null || echo "Ninguno")
+
+======================
+4. ATAJOS DE TECLADO (Xfce)
+======================
+Super_L          = xfce4-popup-whiskermenu (Menú inicio)
+Alt+F1           = xfce4-popup-applicationsmenu
+Alt+F2           = xfce4-appfinder --collapsed
+Alt+F3           = xfce4-appfinder
+Super+r          = xfce4-appfinder -c
+Super+e          = thunar (Explorador archivos)
+Ctrl+Alt+f       = thunar (Explorador archivos)
+Ctrl+Alt+t       = terminal
+Ctrl+Alt+l       = xflock4 (Bloquear pantalla)
+Ctrl+Alt+Delete  = xflock4 (Bloquear pantalla)
+Ctrl+Shift+Esc   = xfce4-taskmanager (Admin tareas)
+Ctrl+Alt+Esc     = xkill (Matar ventana)
+Ctrl+Escape      = xfdesktop --menu
+Print            = xfce4-screenshooter (Captura pantalla)
+Shift+Print      = xfce4-screenshooter -r (Captura región)
+Alt+Print        = xfce4-screenshooter -w (Captura ventana)
+Super+p          = xfce4-display-settings --minimal
+Alt+Super+s      = orca (Lector pantalla)
+XF86WWW          = exo-open --launch WebBrowser (Navegador)
+XF86Mail         = exo-open --launch MailReader (Correo)
+
+======================
+5. APPS EN EL PANEL (lanzadores)
+======================
+$(for f in ~/.config/xfce4/panel/launcher-*; do cat "$f" 2>/dev/null | grep -E "Name=|Exec=|Icon=" | head -3; echo "---"; done)
+
+======================
+6. APPS DE INICIO (autostart)
+======================
+- Proton VPN (protonvpn-app --start-minimized)
+
+======================
+7. LANZADORES PERSONALIZADOS (~/.local/share/applications/)
+======================
+$(for f in ~/.local/share/applications/*.desktop; do echo "--- $(basename $f) ---"; grep -E "^Name=|^Exec=|^Comment=" "$f" 2>/dev/null; done)
+
+======================
+8. LANZADORES EN ESCRITORIO
+======================
+$(ls ~/Escritorio/ 2>/dev/null | grep .desktop || echo "Ninguno")
+
+======================
+9. WEB APPS (Brave)
+======================
+- Claude: https://claude.ai
+- Proton Mail: https://mail.proton.me
+- OnlineChat (Matrix): mintchat
+
+======================
+10. TEMAS E ICONOS
+======================
+Temas personalizados: $(ls ~/.themes 2>/dev/null | wc -l) carpetas
+Iconos personalizados: $(ls ~/.icons 2>/dev/null | wc -l) carpetas
+Fuentes personalizadas: $(ls ~/.fonts 2>/dev/null | wc -l) archivos
+Si hay temas/iconos, están en ~/mint-backup/temas/ e ~/mint-backup/iconos/
+
+======================
+11. CONFIGURACIÓN GTK
+======================
+GTK2: ~/.gtkrc-2.0
+GTK-Xfce: ~/.gtkrc-xfce
+GTK3: ~/mint-backup/gtk-3.0/
+
+======================
+12. IMÁGENES
+======================
+Carpeta: ~/Imágenes
+Tamaño: 90 MB
+Están incluidas en ~/mint-backup/mis-imagenes/
+
+======================
+13. NOTAS
+======================
+- Las configs completas de Xfce están en ~/mint-backup/xfce4/
+- Config de Thunar: ~/mint-backup/Thunar/
+- Config de terminal: ~/mint-backup/terminalrc
+- Atajos de teclado: ~/mint-backup/xfce4-keyboard-shortcuts.xml
+
+========================================
+  FIN DEL MANUAL
+========================================
