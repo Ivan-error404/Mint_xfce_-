@@ -1,0 +1,282 @@
+========================================================================
+  VS CODE EXTENSIONS
+  Total: 39 extensiones
+  Generado: 2026-05-20 17:38
+========================================================================
+
+  Live Server
+  ID:      ritwickdey.LiveServer
+  Version: 5.7.10
+  Desc:    Launch a development local Server with live reload feature for static & dynamic pages
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  XML
+  ID:      redhat.vscode-xml
+  Version: 0.29.2
+  Desc:    XML Language Support by Red Hat
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Language Support for Java(TM) by Red Hat
+  ID:      redhat.java
+  Version: 1.54.0
+  Desc:    Java Linting, Intellisense, formatting, refactoring, Maven/Gradle support and more...
+  Config:
+    redhat.telemetry.enabled: false
+    sonarlint.connectedMode.connections.sonarqube: []
+    sonarlint.rules: {   "java:S106": {     "level": "off"   },   "java:S1192": {     "level": "off"   } }
+  --------------------------------------------------------------------
+
+  Gradle for Java
+  ID:      vscjava.vscode-gradle
+  Version: 3.17.3
+  Desc:    Manage Gradle Projects, run Gradle tasks and provide better Gradle file authoring experience in VS Code
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  indent-rainbow
+  ID:      oderwat.indent-rainbow
+  Version: 8.3.1
+  Desc:    Makes indentation easier to read
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Git Graph
+  ID:      mhutchie.git-graph
+  Version: 1.30.0
+  Desc:    View a Git Graph of your repository, and perform Git actions from the graph.
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Code Spell Checker
+  ID:      streetsidesoftware.code-spell-checker
+  Version: 4.5.6
+  Desc:    Spelling checker for source code
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Better Comments
+  ID:      aaron-bond.better-comments
+  Version: 3.0.2
+  Desc:    Improve your code commenting by annotating with alert, informational, TODOs, and more!
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  tokyo-night
+  ID:      Avetis.tokyo-night
+  Version: 1.0.2
+  Desc:    Dark Themes based on Tokyo palettes from Gogh projects
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Windsurf Plugin (formerly Codeium): AI Coding Autocomplete and Chat for Python, JavaScript, TypeScript, and more
+  ID:      Codeium.codeium
+  Version: 1.48.2
+  Desc:    The modern coding superpower: free AI code acceleration plugin for your favorite languages. Type less. Code more. Ship faster.
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  markdownlint
+  ID:      DavidAnson.vscode-markdownlint
+  Version: 0.61.2
+  Desc:    Markdown linting and style checking for Visual Studio Code
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  ESLint
+  ID:      dbaeumer.vscode-eslint
+  Version: 3.0.24
+  Desc:    Integrates ESLint JavaScript into VS Code.
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  HTML CSS Support
+  ID:      ecmel.vscode-html-css
+  Version: 2.0.14
+  Desc:    CSS Intellisense for HTML
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Andromeda
+  ID:      EliverLara.andromeda
+  Version: 1.10.0
+  Desc:    Dark theme with a taste of the universe
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Prettier - Code formatter
+  ID:      esbenp.prettier-vscode
+  Version: 12.4.0
+  Desc:    Code formatter using prettier
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Auto Rename Tag
+  ID:      formulahendry.auto-rename-tag
+  Version: 0.1.10
+  Desc:    Auto rename paired HTML/XML tag
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  comment-translate
+  ID:      intellsmi.comment-translate
+  Version: 3.1.0
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Peacock
+  ID:      johnpapa.vscode-peacock
+  Version: 4.2.2
+  Desc:    Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Container Tools
+  ID:      ms-azuretools.vscode-containers
+  Version: 2.4.4
+  Desc:    Makes it easy to create, manage, and debug containerized applications.
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Spanish Language Pack for Visual Studio Code
+  ID:      MS-CEINTL.vscode-language-pack-es
+  Version: 1.118.2026050120
+  Desc:    Language pack extension for Spanish
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  remote-containers
+  ID:      ms-vscode-remote.remote-containers
+  Version: 0.459.0
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Color Highlight
+  ID:      naumovs.color-highlight
+  Version: 2.8.0
+  Desc:    Highlight web colors in your editor
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Material Icon Theme
+  ID:      PKief.material-icon-theme
+  Version: 5.34.0
+  Desc:    Material Design Icons for Visual Studio Code
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Language Support for Java(TM) by Red Hat
+  ID:      redhat.java
+  Version: 1.54.0
+  Desc:    Java Linting, Intellisense, formatting, refactoring, Maven/Gradle support and more...
+  Config:
+    redhat.telemetry.enabled: false
+    sonarlint.connectedMode.connections.sonarqube: []
+    sonarlint.rules: {   "java:S106": {     "level": "off"   },   "java:S1192": {     "level": "off"   } }
+  --------------------------------------------------------------------
+
+  Live Server
+  ID:      ritwickdey.LiveServer
+  Version: 5.7.10
+  Desc:    Launch a development local Server with live reload feature for static & dynamic pages
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Coverage Gutters
+  ID:      ryanluker.vscode-coverage-gutters
+  Version: 2.14.0
+  Desc:    Display test coverage generated by lcov or xml - works with many languages
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Code Spell Checker
+  ID:      streetsidesoftware.code-spell-checker
+  Version: 4.5.6
+  Desc:    Spelling checker for source code
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Error Lens
+  ID:      usernamehw.errorlens
+  Version: 3.28.0
+  Desc:    Improve highlighting of errors, warnings and other language diagnostics.
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  intellicode-api-usage-examples
+  ID:      VisualStudioExptTeam.intellicode-api-usage-examples
+  Version: 0.2.9
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  IntelliCode
+  ID:      VisualStudioExptTeam.vscodeintellicode
+  Version: 1.3.2
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Gradle for Java
+  ID:      vscjava.vscode-gradle
+  Version: 3.17.3
+  Desc:    Manage Gradle Projects, run Gradle tasks and provide better Gradle file authoring experience in VS Code
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Debugger for Java
+  ID:      vscjava.vscode-java-debug
+  Version: 0.59.0
+  Desc:    A lightweight Java debugger for Visual Studio Code
+  Config:
+    java.debug.settings.hotCodeReplace: "auto"
+  --------------------------------------------------------------------
+
+  Project Manager for Java
+  ID:      vscjava.vscode-java-dependency
+  Version: 0.27.2
+  Config:
+    java.dependency.packagePresentation: "hierarchical"
+  --------------------------------------------------------------------
+
+  Extension Pack for Java
+  ID:      vscjava.vscode-java-pack
+  Version: 0.30.5
+  Desc:    Popular extensions for Java development that provides Java IntelliSense, debugging, testing, Maven/Gradle support, project management and more
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Test Runner for Java
+  ID:      vscjava.vscode-java-test
+  Version: 0.45.0
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Maven for Java
+  ID:      vscjava.vscode-maven
+  Version: 0.45.3
+  Config:
+    maven.executable.path:
+      "/home/ivan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn"
+  --------------------------------------------------------------------
+
+  Quokka.js
+  ID:      WallabyJs.quokka-vscode
+  Version: 1.0.757
+  Desc:    JavaScript and TypeScript playground in your editor.
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
+
+  Code Debugger
+  ID:      wowbox.code-debuger
+  Version: 1.0.0
+  Config:
+    trailing-spaces.backgroundColor: "rgba(255,0,0,0.1)"
+    trailing-spaces.includeEmptyLines: false
+  --------------------------------------------------------------------
+
+  JavaScript (ES6) code snippets
+  ID:      xabikos.JavaScriptSnippets
+  Version: 1.8.0
+  Desc:    Code snippets for JavaScript in ES6 syntax
+  Config: (ninguna config personalizada)
+  --------------------------------------------------------------------
